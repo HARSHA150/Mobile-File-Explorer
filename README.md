@@ -8,6 +8,9 @@ The File Management System is a cross-platform application developed using Java 
 
 This system offers advanced features like multi-platform support (Windows, macOS, Linux, Android), batch operations, secure file handling, and permission-based access control. Desktop users can create, rename, or delete files and folders with confirmation prompts for critical actions. The mobile app allows item selection using interactive UI elements and applies file operations seamlessly within the Android ecosystem. Robust exception handling mechanisms minimize crashes and protect data integrity. Both versions were tested rigorously to validate execution speed, interface responsiveness, and cross-device consistency, ensuring a stable experience under varying hardware and operating environments.
 
+%%Add images here%%
+
+
 **Technology Stack**
 
 The desktop version uses Java (JDK 17+), Java I/O for file system interaction, and JavaFX/Swing for GUI development, implemented in IDEs like VS Code and IntelliJ IDEA. The Android application is built in Kotlin using Android Studio, leveraging components such as RecyclerView, RadioButton, and SAF (Storage Access Framework) for storage operations. Backend logic ensures compatibility with file system constraints while maintaining UI consistency. The system architecture follows modular principles with separate components for file operations, UI logic, and metadata-based file searching, making the codebase maintainable and scalable for future enhancements.
